@@ -1,0 +1,273 @@
+body { 
+	margin:0;
+	padding:0;
+    font-family: 'Josefin Sans', sans-serif;
+     background-image: url(newbg.svg);
+    background-attachment: fixed;
+    background-size: cover;
+/*    font-family: 'Dosis', sans-serif;*/
+    
+}
+
+.container{
+/*    background-color:wheat;*/
+/*    z-index: -1;*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.top{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+.leftlogo{
+    display:inline-block;
+    float: left;
+    margin-left: 15%;
+    display: inline-block;
+    transition: all .3s;
+}
+.myweb{
+    font-size: 18px;
+    color: white;
+      text-decoration: none;
+     font-family: 'Josefin Sans', sans-serif;
+/*    font-family: 'Dosis', sans-serif;*/
+
+}
+
+.leftlogo:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.3s;
+    opacity: 1;
+/*    border: 2px solid white;*/
+    padding: 0px;
+    
+}
+
+.navbar{
+    float: right;
+    display: inline-block;
+    margin-right: 15%;
+    transition: all .3s;
+}
+
+.navlist{
+    list-style-type: none;
+    padding: 0px;
+/*    margin-top: 15px;*/
+    transition: all .3s;
+}
+
+.navbutton{
+  float: left;
+}
+
+
+.navbutton a {
+    border: 2px solid white;
+/*    border-radius: 5px;*/
+    display: block;
+    color: white;
+    font-family: sans-serif;
+  text-align: center;
+  padding: 5px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  text-decoration: none;
+/*     font-family: 'Josefin Sans', sans-serif;*/
+    font-family: 'Dosis', sans-serif;
+}
+.navbutton:hover a{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.4s;
+    transition-timing-function:ease-in-out;
+    
+}
+
+.navbutton a:hover {
+  background-color:white;
+    color: black;  
+}
+
+.navlist{
+/*    position: sticky;*/
+}
+
+.topcontent{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding-left: 5%;
+/*    position: fixed;*/    
+    
+
+}
+
+.left{
+/*    position: relative;*/
+        max-width: 35%;
+    margin-top: 18%;
+
+    
+}
+
+.leftheading{
+/*    background-blend-mode:difference;*/
+    margin-top: 50px;
+    padding-top: 10px;
+}
+.leftpara{
+/*    background-blend-mode: lighten;*/
+/*    position: fixed;*/
+}
+.right img{
+/*    float: right;*/
+/*    height: 50px;*/
+    width: 600px;
+    z-index: 11;
+
+}
+/*
+.right{
+    margin-left: 10%;
+}
+*/
+
+
+.mid{
+/*    background-color:cornflowerblue;*/
+    width:71%;
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 14%;
+    padding-top: 10%;
+    justify-content: space-between;
+    z-index: 1;
+/*    align-items: center;    */
+}
+.middle{
+/*    align-items: center;*/
+/*    align-content: center;*/
+/*    justify-content: center;*/
+    text-align: center;
+    padding: 1.1%;
+    background: white;
+/*    margin-left: 1%;*/
+    border: 3px solid #87EBFC;    
+    width: 18%;
+    margin: 1%;
+    max-height: 18%;
+    transition: all .3s;
+    
+}
+
+.middle:hover{
+    box-shadow: 5px;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 5px 10px 30px #88ECFD inset;
+}
+
+.footer{
+        display: inline-flex;
+        flex-direction: row;
+    margin-top: 10%;
+/*        justify-content: space-between;*/
+}
+
+.footright{
+    margin-left: 10%;
+}
+.footleft{
+    margin-left: 10%;
+    border: 5px solid #88ECFD;
+}
+.footright{
+    background: 
+    border: 5px solid #88ECFD;
+/*    background-image: linear-gradient( #4A3E85, white);*/
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:350px;
+    width:550px;}
+
+.address{
+    text-align: center;
+    margin-top: 2px
+}
+
+.gmap_canvas 
+{overflow:hidden;
+    background:none!important;
+/*    height:350px;*/
+    width:550px;
+}
+
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4A3E85;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #88ECFD;;
+}
+
+.formdiv {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+/*    width: 90%;*/
+}
+.footright{
+    width: 100%;
+    margin-right: 12%;
+     height: 235px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 2px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 2px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  }
