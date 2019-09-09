@@ -129,10 +129,22 @@ body {
 .right img{
 /*    float: right;*/
 /*    height: 50px;*/
-    width: 600px;
+    width: 500px;
     z-index: 11;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 
 }
+
+.right img:hover{
+/*    float: right;*/
+/*    height: 50px;*/
+        transform:rotate(360deg);
+        
+
+        
+}
+
 /*
 .right{
     margin-left: 10%;
